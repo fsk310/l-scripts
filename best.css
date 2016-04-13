@@ -1,0 +1,14 @@
+.test {
+    color: black;           /* W3C */
+    color: red\9;           /* IE6-IE10 */
+    _color: black;          /* IE6 */
+    +color: black;          /* IE7 */
+    color: black\9\0;       /* IE9 IE10 */
+}
+
+/*
+&nbsp;  &#160;  不断行的空白（1个字符宽度）
+&ensp;  &#8194; 半个空白（1个字符宽度）
+&emsp;  &#8195; 一个空白（2个字符宽度）
+&thinsp; &#8201; 窄空白（小于1个字符宽度）
+*/
